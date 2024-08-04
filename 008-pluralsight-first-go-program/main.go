@@ -97,17 +97,49 @@
 
 // }
 // -//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//
+// package main
+
+// import (
+// 	"fmt"
+// 	"net/http"
+// )
+
+// func main() {
+// 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) { fmt.Fprint(w, "Go is great at making web services and applications!") })
+
+// 	http.HandleFunc("/home", func(w http.ResponseWriter, r *http.Request) { http.ServeFile(w, r, "./home.html") })
+
+//		http.ListenAndServe(":3000", nil)
+//	}
+//
+// -//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//-//
 package main
 
 import (
+	"bufio"
+	"flag"
 	"fmt"
-	"net/http"
+	"log"
+	"os"
+	"strings"
 )
 
-func main() {
-	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) { fmt.Fprint(w, "Hello") })
+func main () {
+	level := flag.String("level", "CRITICAL", "log level to filter for")
+	flag.Parse()
 
-	http.HandleFunc("/home", func(w http.ResponseWriter, r *http.Request) { http.ServeFile(w, r, "./home.html") })
+	f, err := os.Open("./log.txt")
+	if err != nil {
+		log.Fatal(err)
+	}
+	defer f.Close()
 
-	http.ListenAndServe(":3000", nil)
+	bufReader := bufio.NewReader(f)
+
+	for line, err :=  bufReader.ReadString('\n'); err == nil; line, err = bufReader.ReadString('\n') {
+		if strings.Contains(line, *level) {
+			fmt.Println(line)
+		}
+		
+	}
 }
