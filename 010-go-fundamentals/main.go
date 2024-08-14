@@ -5,4 +5,7 @@ func main () {
 	convertion ()
 	arithmetic ()
 	comparisons ()
+	varandconst () 
+	pointer ()
+	cli ()
 }

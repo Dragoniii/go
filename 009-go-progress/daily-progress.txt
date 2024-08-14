@@ -1,5 +1,7 @@
 ...
-13.aug.2024 - Variables and simple data - 3
-12.aug.2024 - Variables and simple data - 3
-05.aug.2024 - Variables and simple data - 2
-05.aug.2024 - Variables and simple data - 1
+14.aug.2024 - Creating and Debugging Programs - Pluralsight - 1
+14.aug.2024 - Variables and simple data - Pluralsight - 5
+13.aug.2024 - Variables and simple data - Pluralsight - 4
+12.aug.2024 - Variables and simple data - Pluralsight - 3
+05.aug.2024 - Variables and simple data - Pluralsight - 2
+05.aug.2024 - Variables and simple data - Pluralsight - 1
