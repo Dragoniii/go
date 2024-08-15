@@ -1,4 +1,5 @@
 ...
+15.aug.2024 - HTTP Fundamentals - Pluralsight - 1
 14.aug.2024 - Creating and Debugging Programs - Pluralsight - 1
 14.aug.2024 - Variables and simple data - Pluralsight - 5
 13.aug.2024 - Variables and simple data - Pluralsight - 4
