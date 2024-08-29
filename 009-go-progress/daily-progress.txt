@@ -1,5 +1,11 @@
 ...
-15.aug.2024 - Creating web service with Go 1 - Pluralsight - 1
+22.aug.2024 - Creating and Debugging Programs - Pluralsight - 4
+21.aug.2024 - Creating and Debugging Programs - Pluralsight - 3
+20.aug.2024 - Creating and Debugging Programs - Pluralsight - 2
+19.aug.2024 - Creating web service with Go 1 - Pluralsight - 4
+18.aug.2024 - Creating web service with Go 1 - Pluralsight - 3
+17.aug.2024 - Creating web service with Go 1 - Pluralsight - 2
+16.aug.2024 - Creating web service with Go 1 - Pluralsight - 1
 15.aug.2024 - HTTP Fundamentals - Pluralsight - 1
 14.aug.2024 - Creating and Debugging Programs - Pluralsight - 1
 14.aug.2024 - Variables and simple data - Pluralsight - 5
