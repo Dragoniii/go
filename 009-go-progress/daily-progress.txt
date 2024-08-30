@@ -1,5 +1,6 @@
 ...
-29.aug.2024 - Creating and Debugging Programs - Pluralsight - 1
+30.aug.2024 - Aggregate Data Types - Pluralsight - 2
+29.aug.2024 - Aggregate Data Types - Pluralsight - 1
 ??.aug.2024 - Problems...
 22.aug.2024 - Creating and Debugging Programs - Pluralsight - 4
 21.aug.2024 - Creating and Debugging Programs - Pluralsight - 3

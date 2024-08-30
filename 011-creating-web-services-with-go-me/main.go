@@ -12,4 +12,9 @@ func main() {
 	unmarshall()
 	// 04
 	middleware()
+	fmt.Println("Item 4 has been skipped")
+	// 05
+	ar0()
+	ar1()
+	s0()
 }

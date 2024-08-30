@@ -24,4 +24,5 @@ func unmarshall() {
 	}
 
 	fmt.Printf("json unmarshal product: %s", product.ProductName)
+	fmt.Println("")
 }
